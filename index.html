@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Abdullah Al Mohaimin</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Abdullah Al Mohaimin</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#academics" class="nav-link">Academics</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/bg.jpg"
+        alt="cade"
+        loading="cade"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hi, I am Abdullah Al - Mohaimin, an undergraduate Computer Science &
+          Engineering student from Bangladesh. Currently I am in my senior year
+          in
+          <a href="https://cse.buet.ac.bd"
+            >Bangladesh University of Engineering & Technology</a
+          >. I am doing my undergraduate thesis on "Book Embeddings of Graph". I
+          enjoy coding, with a liking for backend development. In my free time,
+          I read manga or books, watch tv series, anime or movies and play
+          with(annoy) neighbourhood cats. Pic on 👈 is a local cat.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I love C and C++. Given a choice, I have always done my courseworks in
+        C/C++. However, I also have worked with Python and is learning Rust. As
+        almost everyone have one, I too have a favourite Javascript framework
+        and that is Svelte. I find it very lightweight, easy to write code in
+        and reasonably fast. For similar reasons, I also love the Postgresql
+        database.
+      </p>
+      <p>
+        I love Linux and the Free & Open Source(FOSS) movement in general. I try
+        to be a trouble shooter for problems my friends face with their Linux
+        systems. I have checked out some niche OS for fun and I have to say I am
+        a fan of Oberon. I am also an avid user of git and github.
+      </p>
+      <p>
+        I wish to be a versatile learner and enjoy reading books about history,
+        economy, science. Many a nights I have spent(wasted) in the depths of
+        Wikipedia on any kind of subjects 😭. I also take courses in the
+        internet and currently taking one on Machine Learning.
+      </p>
+    </section>
+
+    <!-- Academics section -->
+    <section class="more-about" id="academics">
+      <h2>Academics</h2>
+      <p>
+        Passed Secondary School Certificate(SSC) exam in 2017 with GPA 5.00
+        <br />
+        Passed Higher Secondary School Certificate(HSC) exam in 2019 with GPA
+        5.00
+        <br />
+        Undergraduate in Computer Science & Engineering: 2020-2024(expected),
+        with undergraduate research on "Book Embeddings of Graph"
+        <br />
+      </p>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <h3 class="project-title">AuthentiDocs</h3>
+          <p class="project-details">
+            For my senior year software engineering lab project, me and my
+            teammates made a digitally authenticated team collaboration
+            platform. Here, we used digital signatures to verify formal
+            interactions. We tried to combine the features of a document signing
+            app with those of an organizational management application. We used
+            Svelte hosted in Vercel and Supabase database for this project.
+          </p>
+          <a
+            href="https://github.com/AuthentiDocs/authentidocs"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <h3 class="project-title">Anidex</h3>
+          <p class="project-details">
+            Me and my teammate made an collaborative anime database for our
+            sophomore year database lab project. We tried to emulate the
+            features of MyAnimeList and AniDB, letting users view, search, list
+            and add anime, characters, voice actors, discuss about them in
+            forums, schedule watch parties etc. I wrote the backend in ExpressJS
+            with Postgresql with my friend coding the frontend in Svelte.
+          </p>
+          <a
+            href="https://github.com/KyojinsAnidex/Anidex/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"
+            title="c"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+            title="c++"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+            title="java"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            title="javascript"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+            title="typescript"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+            title="python"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+            title="git"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+            title="linux"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+            title="node"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+            title="express"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg"
+            title="svelte"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg"
+            title="arduino"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+            title="postgresql"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg"
+            title="tensorflow"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hugo/hugo-original.svg"
+            title="hugo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
+            title="azure"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+            title="vercel"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Reach Me At</h2>
+      <div>
+        <a href="https://github.com/Mohaimin41" target="_blank"
+          ><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+            alt="Github"
+            class="socicon"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/abdullah-al-mohaimin"
+          target="_blank"
+          ><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://kaggle.com/abdullahalmohaimin" target="_blank"
+          ><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kaggle/kaggle-original.svg"
+            alt="Kaggle"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.leetcode.com/eh_he" target="_blank"
+          ><img
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg"
+            alt="leetcode"
+            loading="lazy"
+            class="socicon"
+        /></a>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; 2024</p>
+      <p class="copy">
+        Built by
+        <a href="https://github.com/Mohaimin41" target="_blank"
+          >Abdullah Al - Mohaimin</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
