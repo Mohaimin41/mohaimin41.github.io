@@ -238,6 +238,7 @@ nav ul li {
 }
 
 footer {
+  color: var(--primary-color);
   background-color: var(--bg-color);
   padding: 1.25rem;
   text-align: center;
