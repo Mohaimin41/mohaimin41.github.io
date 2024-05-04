@@ -138,6 +138,7 @@ nav ul li {
 }
 
 .skills {
+  color: var(--primary-color);
   background-color: var(--bg-color);
   margin: auto;
   text-align: center;
@@ -165,6 +166,7 @@ nav ul li {
 }
 
 .projects {
+  color: var(--primary-color);
   background-color: var(--bg-color);
   padding: 32px 0;
 }
@@ -212,6 +214,7 @@ nav ul li {
 }
 
 .contact {
+  color: var(--primary-color);
   background-color: var(--bg-color);
   padding: 1rem 6rem;
   text-align: center;
