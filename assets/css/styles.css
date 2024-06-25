@@ -7,7 +7,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #002b36;
-  --primary-color: #839496;
+  --primary-color: white;
   --secondary-color: #585858;
   --primary-shadow: #8a8a8a;
   --secondary-shadow: #626262;
@@ -35,12 +35,12 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 a:hover {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   border-bottom: 2px solid var(--secondary-color);
 }
 
